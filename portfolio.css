@@ -246,6 +246,7 @@ body {
       grid-column-gap: -15px;
       width: 100%;
       margin: 0;
+      height: ;
       
   }
 
@@ -254,7 +255,7 @@ body {
     padding: 20px;
     font-size: 20px;
     text-align: center;
-    height: 78vh;
+    height: auto;
     display: inline-block;
     border-radius: 2rem;
     box-shadow: 0 0 50px black;
@@ -265,7 +266,7 @@ body {
     padding: 20px;
     font-size: 20px;
     text-align: center;
-    height: 89vh;
+    height: auto;
     display: inline-block;
     border-radius: 2rem;
     box-shadow: 0 0 50px black;
@@ -276,7 +277,7 @@ body {
     padding: 20px;
     font-size: 20px;
     text-align: center;
-    height: 95vh;
+    height: auto;
     display: inline-block;
     border-radius: 2rem;
     box-shadow: 0 0 50px black;
@@ -726,10 +727,6 @@ body {
           font-weight: bold;
       }
 
-      .row .dev-all {
-          height: 90vh;
-      }
-
       .text-b .bt-row {
           font-size: 2.6rem;
           font-weight: 400;
@@ -987,8 +984,9 @@ body {
         font-size: 1.2rem; 
     }
 
-    .row .dev-2, .dev-3 {
-        height: 95vh;
-    } 
+
+    .skills h5 {
+        padding: 6rem 0 0 1rem;
+    }
 
   }
