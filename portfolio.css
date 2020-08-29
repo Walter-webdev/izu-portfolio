@@ -289,6 +289,7 @@ body {
   .img-b .width-a {
       width: 130px;
       border-radius: 8rem;
+      box-shadow: inset 1px 2px 2px rgba(0,0,0,.05), 0 5px 30px rgba(0,0,0,.2);
   }
 
 
@@ -369,15 +370,22 @@ body {
 
   .skills {
       padding: 10rem;
-      background: #141c22;
+      background: #fff;
   }
 
   .skills h5 {
     font-size: 3rem;
-    text-align: center;
-    font-weight: 500;
-    color: #fff;
-    padding-top: 30px;
+    font-weight: bold;
+    color: #7e8e9e;
+    padding: 6rem 0 1rem 10rem;
+}
+
+.skills-hr {
+    border: 2px solid #e6e8e9;
+    border-radius: 10px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 6rem;
 }
  
   .flex {
@@ -395,10 +403,15 @@ body {
     margin: 10px;
     padding: 20px;
     font-size: 20px;
-    color: #141c22;
+    color: #485055;
     border-radius: 4rem;
     border: 1px solid #e69500;
-    box-shadow: 0 0 50px black;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.473), 0 5px 30px rgba(0,0,0,.2);
+  }
+
+  .flex p:hover {
+      border: 1px solid whitesmoke;
+      background: #ff9100;
   }
 
   #projects {
@@ -410,7 +423,7 @@ body {
   #projects h2 {
     font-size: 3rem;
     font-weight: bold;
-    color: #485055;
+    color: #7e8e9e;
     padding: 6rem 0 1rem 10rem;
   }
 
@@ -459,7 +472,7 @@ body {
        text-align: center;
        font-size: 3rem;
        margin: 4rem 9rem 0 9rem;
-       color: #3a3e41;
+       color: #7e8e9e;
        font-weight: 600;  
    }
 
@@ -533,7 +546,7 @@ body {
   .process h3 {
       font-size: 3rem;
       font-weight: bold;
-      color: #485055;
+      color: #7e8e9e;
       padding: 6rem 0 1rem 10rem;
   }
 
@@ -714,7 +727,7 @@ body {
       }
 
       .row .dev-all {
-          height: 80vh;
+          height: 90vh;
       }
 
       .text-b .bt-row {
@@ -953,16 +966,16 @@ body {
       }
 
       .group-div {
-          width: 200px;
-          height: 470px;
+          width: 250px;
+          height: 460px;
       }
 
       .group h4 {
-          font-size: 2rem;
+          font-size: 2.2rem;
       }
 
       .group p {
-          font-size: 1.3rem;
+          font-size: 1.5rem;
       }
 
       .contact-links a .fab, .fas {
@@ -973,9 +986,9 @@ body {
     .contact-links a {
         font-size: 1.2rem; 
     }
-    
-    .row .dev-all {
-        height: 85vh;
-    }
+
+    .row .dev-2, .dev-3 {
+        height: 95vh;
+    } 
 
   }
