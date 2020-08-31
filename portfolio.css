@@ -978,7 +978,7 @@ body {
       }
 
       .item-6 p {
-          font-size: 2.5rem;
+          font-size: 2rem;
       }
       
       .contact-links {
@@ -1005,6 +1005,18 @@ body {
 
     .contact-links a {
         font-size: 1.2rem; 
+    }
+
+    .project-grid {
+        margin: 3rem auto;
+    }
+
+    .item .project-title {
+        font-size: 1.8rem;
+    }
+
+    .wrapper-hr {
+        margin: 0 3rem 0 3rem;
     }
 
   }
