@@ -1013,7 +1013,11 @@ body {
     }
 
     .item .project-title {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+    }
+
+    .item {
+        margin: 0;
     }
 
     .wrapper-hr {
