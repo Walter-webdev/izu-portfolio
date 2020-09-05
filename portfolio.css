@@ -117,6 +117,19 @@ body {
     text-align: center;
 }
 
+.social-part a .fab, .fa {
+    padding: 0.5rem;
+    border: 1px solid  #141c22;
+    border-radius: 6rem;
+}
+
+.social-part a .fa:hover {
+    background: #1DA1F2;
+}
+
+.social-part a .fab:hover {
+    background: #1DA1F2;
+}
 
 .good {
     border: 3px solid #ffb700;
@@ -703,7 +716,7 @@ body {
   .contact-links a {
       text-decoration: none;
       font-weight: bold;
-      color: rgba(255,255,255,.5);
+      color: #ffffff80;
       line-height: 10vh;
       text-align: center;
       font-size: 2rem;
@@ -711,7 +724,19 @@ body {
 
   .contact-links a .fab, .fas {
       margin: 1rem;
-      font-size: 2.2rem; 
+      font-size: 2rem;
+      padding: 0.8rem;
+      background: ; 
+      border-radius: 3rem;
+      border: 1px solid #fff;
+  }
+
+  .contact-links a .fab:hover {
+      background: #1DA1F2;
+  }
+
+  .contact-links a .fas:hover {
+      background: #1DA1F2;
   }
 
   footer {
