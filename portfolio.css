@@ -1054,6 +1054,11 @@ body {
         margin: 0 3rem 0 3rem;
     }
 
+    .wrapper h3 {
+        padding: auto;
+        text-align: center;
+    }
+
     .text-c {
         text-align: center;
         margin-left: 0;
