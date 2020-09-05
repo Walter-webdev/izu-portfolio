@@ -1054,4 +1054,9 @@ body {
         margin: 0 3rem 0 3rem;
     }
 
+    .text-c {
+        text-align: center;
+        margin-left: 0;
+    }
+
   }
