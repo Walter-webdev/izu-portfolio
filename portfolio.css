@@ -119,16 +119,16 @@ body {
 
 .social-part a .fab, .fa {
     padding: 0.5rem;
-    border: 1px solid  #141c22;
+    border: 0.122px solid  #141c22;
     border-radius: 6rem;
 }
 
 .social-part a .fa:hover {
-    background: #1DA1F2;
+    background: #e69500;
 }
 
 .social-part a .fab:hover {
-    background: #1DA1F2;
+    background: #e69500;
 }
 
 .good {
@@ -728,15 +728,15 @@ body {
       padding: 0.8rem;
       background: ; 
       border-radius: 3rem;
-      border: 1px solid #fff;
+      border: 0.122px solid #fff;
   }
 
   .contact-links a .fab:hover {
-      background: #1DA1F2;
+      background: #e69500;
   }
 
   .contact-links a .fas:hover {
-      background: #1DA1F2;
+      background: #e69500;
   }
 
   footer {
