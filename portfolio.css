@@ -1033,8 +1033,7 @@ body {
     }
 
     .contact-links a {
-        font-size: 1.2rem;
-        margin: 0;
+       display: none;
     }
 
 
@@ -1051,7 +1050,7 @@ body {
     }
 
     .wrapper-hr {
-        margin: 0 3rem 0 3rem;
+        margin: 0 10rem 0 10rem;
     }
 
     .wrapper h3 {
