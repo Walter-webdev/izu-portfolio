@@ -1028,12 +1028,17 @@ body {
       }
 
       .contact-links a .fab, .fas {
-        margin: 0.5rem;
+        margin: 0;
         font-size: 1.5rem; 
     }
 
     .contact-links a {
-        font-size: 1.2rem; 
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .contact-links {
+        margin: 0;
     }
 
     .project-grid {
