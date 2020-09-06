@@ -1069,4 +1069,13 @@ body {
         font-weight: bold;
     }
 
+    .contact-section-header h5 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .contact-section-header p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
   }
