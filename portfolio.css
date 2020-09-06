@@ -1072,6 +1072,9 @@ body {
     .contact-section-header h5 {
         margin-left: 10px;
         margin-right: 10px;
+        font-size: 2.5rem;
+        font-weight: bold;
+        padding: 0;
     }
 
     .contact-section-header p {
