@@ -1146,6 +1146,7 @@ body {
         padding: 0;
         width: 100%;
         height: 100%;
+        min-width: auto;
     }
 
     .figure {
@@ -1153,10 +1154,12 @@ body {
         margin-right: 2rem;
        width: 100%;
        height: 100%;
+       min-width: auto;
     }
 
     .img-me {
         width: 100%;
         height: 100%;
+        min-width: auto;
     }
   }
