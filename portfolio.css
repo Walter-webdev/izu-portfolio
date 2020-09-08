@@ -1144,12 +1144,12 @@ body {
     .image-flex {
         margin-right: 0;
         padding: 0;
-        min-width: 300px;
+        min-width: 100px;
     }
 
     .figure {
         margin-left: 2rem;
         margin-right: 2rem;
-        min-width: 300px;
+        min-width: 100px;
     }
   }
