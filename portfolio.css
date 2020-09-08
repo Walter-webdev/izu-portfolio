@@ -138,10 +138,10 @@ body {
   }
 
   .logo-origin .site-logo  {
-      font-size: 3rem;
+      font-size: 2.5rem;
       text-decoration: none;
       display: block;
-      font-weight: 500;
+      font-weight: 550;
       text-transform: uppercase;
       letter-spacing: 0.7px;
       font-size: 2.9rem;
@@ -149,12 +149,43 @@ body {
   }
 
   .logo-origin {
-      padding: 2rem;
+      padding: 3rem;
   }
 
-  .welcome-section {
+  #welcome-section {
       width: 100%;
       height: 100%;
+  }
+
+  .image-flex {
+      display: flex;
+      width: auto;
+  }
+
+  .figure {
+    margin-bottom: 50px;
+    width: 100%;
+    border-radius: 6px;
+    background: #000000;
+    min-width: 400px;
+    height: 150%;
+    padding: 4rem;
+    margin-top: 15rem;
+    margin-right: 7rem;
+    margin-left: 5rem;
+
+  }
+
+  .img-me {
+        position: relative;
+        box-shadow: 0 1px 5px rgba(0,0,0,.05), 0 5px 30px rgba(0,0,0,.2);
+        border-radius: 6px;
+        width: 100%;
+        display: block;
+        max-width: 100%;
+        margin-bottom: -100px;
+        min-height: 450px;
+
   }
 
   .welcome {
@@ -170,10 +201,11 @@ body {
   }
 
   .welcome p {
-      font-weight: 400;
+      font-weight: 500;
       font-size: 3rem;
       color: #ababab;
       margin-top: 20px;
+      margin-bottom: 20px;
   }
 
   .welcome h1 span {
@@ -189,9 +221,9 @@ body {
     cursor: pointer;
     border-radius: 1000px;
     background: #e69500;
-    font-weight: 500;
+    font-weight: bold;
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     padding: 18px 32px;
     text-decoration: none;
 
@@ -231,7 +263,6 @@ body {
   #our-services {
     width: 100%;
     height: 100%;
-    border-top-left-radius: 5rem;
  }
 
   .our-sec {
@@ -346,9 +377,9 @@ body {
     cursor: pointer;
     border-radius: 1000px;
     background: #e69500;
-    font-weight: 400;
+    font-weight: bold;
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     padding: 16px 42px;
     text-decoration: none;
   }
@@ -521,9 +552,9 @@ body {
    .item-6 p {
        padding: 15px 40px;
        background: #e69500; 
-       font-size: 2.5rem;
+       font-size: 2.3rem;
        color: #fff;
-       font-weight: 500;
+       font-weight: bold;
        display: inline-block;
        cursor: pointer;
        border-radius: 4rem;
@@ -629,9 +660,9 @@ body {
     cursor: pointer;
     border-radius: 1000px;
     background: #e69500;
-    font-weight: 500;
+    font-weight: bold;
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     padding: 15px 32px;
     text-decoration: none;
   }
@@ -763,9 +794,8 @@ body {
 
   @media only screen and (max-width: 1100px) {
       .row {
-          grid-template-columns: auto;
-          grid-gap: 50px;
-          padding: 230px;
+          grid-gap: 5px;
+          padding: 23px;
           padding-bottom: 70px;
           padding-top: 70px;
       }
@@ -777,7 +807,6 @@ body {
 
       .text-b .bt-row {
           font-size: 2.6rem;
-          font-weight: 400;
           padding: 18px 30px;
       }
 
@@ -811,10 +840,11 @@ body {
         margin: 140px 30px 0 30px;
       }
       .welcome h1 {
-        font-size: 6.5rem;
+        font-size: 6.2rem;
       }
       .welcome p {
-          font-size: 2.9rem;
+          font-size: 2.5rem;
+          line-height: 4rem;
 
       }
 
@@ -843,13 +873,23 @@ body {
         font-size: 1.9rem;
 
      }
+
+     .project-grid {
+         grid-column-gap: 20px;
+     }
+
   }
 
-  @media only screen and (max-width: 850px) {
+  @media only screen and (max-width: 900px) {
       .row {
         grid-template-columns: auto;
           padding-left: 130px;
           padding-right: 130px;
+          grid-gap: 50px;
+      }
+
+      .welcome {
+          padding-bottom: 7rem;
       }
 
       .welcome h1 {
@@ -861,15 +901,38 @@ body {
       }
 
       .text-a .buutn {
-          padding: 10px 20px;
+          padding: 15px 30px;
       }
 
       .project-grid {
         grid-template-columns: auto;
       }
+
+      #welcome-section {
+        position: relative;
+        margin-bottom: 200px;
+    }
+
+      .image-flex {
+        flex-direction: column;
+        width: auto;
+        height: 100%;
+        margin: 3rem;
+        margin-top: 0;
+    }
+   
+    .figure {
+        width: 100%;
+        margin: auto;
+    }
+   
+    .img-me {
+        width: 100%;
+    }
   }
 
   @media only screen and (max-width: 770px) {
+
        .row {
            padding-left: 110px;
            padding-right: 110px;
@@ -956,6 +1019,7 @@ body {
       .dropbtn {
           font-size: 13px;
       }
+
   }
 
   @media only screen and (max-width: 650px) {
@@ -984,11 +1048,7 @@ body {
     .welcome h1 {
         font-size: 5rem;
         text-align: center;
-      }
-      .welcome {
-          margin-left: 10px;
-          margin-right: 10px;
-      }
+    }
 
       .welcome p {
           font-size: 2.1rem;
@@ -1080,5 +1140,16 @@ body {
     .contact-section-header p {
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .image-flex {
+        margin-right: 0;
+        padding: 0;
+        min-width: 300px;
+    }
+
+    .figure {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        min-width: 300px;
     }
   }
