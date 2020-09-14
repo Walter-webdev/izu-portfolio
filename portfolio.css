@@ -121,20 +121,28 @@ body {
     padding: 0.5rem;
     border: 0.122px solid  #141c22;
     border-radius: 6rem;
+    transition: transform 1s;
 }
 
 .social-part a .fa:hover {
-    background: #ffe4b3;
+    background: whitesmoke;
+    transform: scale(1.1);
 }
 
 .social-part a .fab:hover {
-    background: #ffe4b3;
+    background: whitesmoke;
+    transform: scale(1.1);
 }
 
 .good {
     border: 3px solid #ffb700;
     border-radius: 5px;
     width: 2.1%; 
+    transition: width 3s;
+  }
+
+  .good:hover {
+      width: 19.5%;
   }
 
   .logo-origin .site-logo  {
@@ -198,6 +206,7 @@ body {
       font-weight: 500;
       letter-spacing: 1.5px;
       margin-top: 20px;
+      font-family: "Rubik","Arial",sans-serif;
   }
 
   .welcome p {
@@ -338,6 +347,14 @@ body {
     display: inline-block;
     border-radius: 2rem;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0,0,0,.2)
+  }
+
+  .dev-all {
+      transition: transform 2s;
+  }
+
+  .dev-all:hover {
+      transform: scale(1.1);
   }
 
   .dev-all .text-b {
@@ -629,6 +646,11 @@ body {
 
   .group {
     text-align: center;
+    transition: transform 2s;
+  }
+
+  .group:hover {
+      transform: scale(1.1);
   }
 
   .group-div {
@@ -638,6 +660,8 @@ body {
     box-shadow: 1px 1px 60px #ffffff;
     border-top: 6px solid #e69500;
   }
+
+  
 
   .group h4 {
       font-size: 2.5rem;
@@ -725,6 +749,7 @@ body {
       color: #fff;
       font-size: 6rem;
       font-weight: 500;
+      font-family: "Rubik","Arial",sans-serif;
   }
 
   .contact-section-header p {
@@ -750,16 +775,18 @@ body {
       color: #ffffff80;
       line-height: 10vh;
       text-align: center;
-      font-size: 2rem;
+      font-size: 1.8rem;
+      transition: transform 1s;
   }
 
   .contact-links a:hover {
-      color: #ffa600;
+      color: goldenrod;
+      transform: scale(1.1);
   }
 
   .contact-links a .fab, .fas {
       margin: 1rem;
-      font-size: 2rem;
+      font-size: 1.8rem;
       padding: 0.8rem;
       border-radius: 3rem;
       border: 0.122px solid #fff;
